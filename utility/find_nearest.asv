@@ -1,0 +1,16 @@
+function [ index ] = find_nearest( input,  arr )
+%FIND_NEAREST Summary of this function goes here
+%   Detailed explanation goes here
+len = length(arr);
+head = 1;
+tail = len;
+mid = (head + tail) / 2;
+min = arr(mid) - input;
+record = mid;
+while head < tail
+    arr(mid) - input
+end
+
+
+end
+
